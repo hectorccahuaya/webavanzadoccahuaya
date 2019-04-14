@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h2.form-signin-heading Promociones
+    br
+    h4.form-signin-heading Crear Promociones
+    br
+    form.form-signin(method = "post",action="/promociones/create")
+            div.form-group
+                label(for='nombre') Nombre:
+                input#nombre.form-control(type="text" name="nombre",placeholder="Promocion")
+            button.btn.btn-large.btn-success(type="submit") Crear
+    br
+
+    a(href="/promociones}").btn.btn-large.btn-primary Volver
+    

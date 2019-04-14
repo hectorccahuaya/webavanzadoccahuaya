@@ -1,0 +1,14 @@
+table.table
+    thead
+        tr
+            th ID
+            th Nombre
+            th Descripcion
+            th Precio
+    tbody
+        for item in data
+            tr
+                td= item._id
+                td= item.nombre
+                td= item.descripcion
+                td= item.precio

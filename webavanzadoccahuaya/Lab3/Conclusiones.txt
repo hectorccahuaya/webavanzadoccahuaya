@@ -1,0 +1,8 @@
+2.13 filtrar las peticiones HTTP nos permite agregar más capas de lógica.
+•	Conclusiones
+o	Se vio la importancia de comprender los métodos get, post, put y delete. Las pruebas se realizaron gracias a POSTMAN.
+o	En este laboratorio se vio como trabaja un modulo y como hace escritura de una vista en HTML.
+o	NPM presenta una opción para subir nuestras librerías y compartirlas para reusarlas en otros proyectos.
+o	Express es un framework para Node.js rápido, robusto y flexible y caracterizado por si simplicidad,
+o	Node.js trabaja con la filosofía de AJAX, pero pasada al servidor.
+o	Express ofrece ROUTER de URL Get, Post, etc...

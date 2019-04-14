@@ -1,0 +1,15 @@
+    
+extends layout
+
+block content
+    h2.form-signin-heading Entrenadores
+    br
+    form.form-signin(action="/entrenadores/edit",method = "post")
+                    input(type="hidden" name="id" value="#{data._id}") 
+                    input.input-block-level(type="text", name="nombre", placeholder="Nombre" value=" #{data.nombre}")
+                    br
+                    br
+                    input.input-block-level(type="text", name="edad", placeholder="Edad" value=" #{data.edad}")
+                    button.btn.btn-large.btn-success(type="submit") Editar
+
+    a.btn.btn-large.btn-primary(href="/entrenadores") Volver 

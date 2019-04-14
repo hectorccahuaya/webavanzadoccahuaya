@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h2.form-signin-heading Editar Productos
+    br
+    form.form-signin(action="/productos/edit",method = "post")
+                    input(type="hidden" name="id" value="#{data._id}") 
+                    input.input-block-level(type="text", name="nombre", placeholder="Nombre del Producto" value=" #{data.nombre}")
+                    br
+                    br
+                    input.input-block-level(type="text", name="precio", placeholder="Precio" value=" #{data.precio}")
+                    br
+                    br
+                    button.btn.btn-large.btn-success(type="submit") Editar
+    
+     a.btn.btn-large.btn-primary(href="/productos") Volver 

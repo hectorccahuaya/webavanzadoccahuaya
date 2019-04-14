@@ -1,0 +1,7 @@
+•	Conclusiones
+o	Socket IO es una librería que nos permite trabajar en tiempo real, permitiendo realizar cambios y eventos con varios dispositivos conectados a nuestro servidor.
+o	En este caso realizamos un mantenimiento de base de datos en tiempo real el cual se administrará en tiempo real los cambios realizados.
+o	Con socket.on recibimos eventos y con Socket.emit los emitimos.
+o	Socket IO es una de las herramientas más utilizadas en servidor real-time, pero en el caso de páginas o archivos estáticos no es recomendable ya que existen mejores herramientas para esos tipos de proyectos, teniendo en cuenta que es consume mucho servidor.
+o	 Un punto muy importante es como es el llenado de la tabla, esto es mediante un bucle que recorre dependiendo del tamaño de los datos que recibimos, cada vez que abrimos la página esta función de llenado se ejecuta.
+o	El uso de JQuery para el manejo de eventos es muy importante ya que todo jira en torno a esta librería que nos permite reconocer los clic en elementos específicos.

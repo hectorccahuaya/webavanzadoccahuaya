@@ -1,0 +1,12 @@
+•	4.12 Es un filtro que permite obtener información requerida de un array con varios valores, esto nos permitió Underscore una biblioteca de Javascript que contiene gran cantidad de comandos para facilitarnos la manipulación de datos. 
+•	7.1 Nos permite saber cuántas veces se hace clic en un button.
+•	7.3 Primeramente se ejecuta las dos consolas 1 y 4 ya que las otras dos funciones reciben como parámetro un tiempo para recién poder ejecutarse en este caso la que continúa sería el 3 finalmente con el 4 que recibe un segundo de tiempo.
+•	7.5 En este casi tendría que ser valido la persona para recién poder obtener su nombre, esto nos permitiría primeramente si la variable es nula o no.
+•	7.10 En este caso tenemos funciones dentro de funciones y estas funciones se encuentran en el nombramiento del valor de una variable, al crear una variable las funciones para crear dicha variable con su estructura se ejecutan, para ello una función requiere de otra y para completar su proceso, estas funciones también pueden ser reusadas para otros funcionamientos, son procesos que se realizan en cadena.
+
+•	Conclusiones:
+o	El uso de las funciones de una manera correcta ayuda en una gran parte a optimizar el proceso de los datos.
+o	La herencia parasitaria consiste en obtener parámetros de otras funciones 
+o	La librería Underscore es una de las herramientas más utilizadas que permite la manipulación de datos de una manera más optima y simple.
+o	JavaScript contiene gran cantidad de librerías que permiten el desarrollo más fácil y ligero.
+o	Uno mismo puede generar sus propias librerías dependiendo de las necesidades que tenemos, para dar uso de ellas solo importamos a la librería y luego le damos los parámetros que requiere para su funcionamiento.

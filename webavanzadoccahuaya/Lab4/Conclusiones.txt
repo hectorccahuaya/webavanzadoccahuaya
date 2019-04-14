@@ -1,0 +1,7 @@
+3.5 Se esta haciendo referencia a cuatro métodos de vista, crear, actualizar y eliminar dato, el único que requiere del método GET es show ya que hace una consulta a la BD.
+•	Conclusiones
+o	Un jade es una vista que trabaja Express esta contiene toda la información a mostrar, el condigo tiene que contener una buena indentacion ya que jade es muy estricto en ese campo. 
+o	Para realizar las operaciones CRUD con la base de datos se crearon métodos que nos permitían actualizar y realizar consultas con Mongo.
+o	Se aplicaron los midleware para dar acceso a Login, estos mayormente son utilizados para dar direccionamiento en nuestra aplicación.
+o	Para la conexión tenemos que hacer referencia en la ubicación donde se encuentre nuestra base de datos mongo, luego con la colección que trabajaremos. 
+o	Bootstrap también trabaja con Jade permitiendo dale estilos a nuestra vista .

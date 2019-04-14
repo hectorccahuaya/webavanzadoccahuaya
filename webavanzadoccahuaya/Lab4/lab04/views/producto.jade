@@ -1,0 +1,24 @@
+html
+    head
+        meta(name='viewport', content = 'width=device-width, initial-scale=1')
+        title Sistema
+        link(rel="stylesheet", href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    body
+        block content
+            .main.container
+                .row
+                    .col-md-6.col-md-offset-3
+                        h1.display-4.m-b-2 Crear Producto
+                        form.form-signin(action="/producto",method = "post")
+                            div.form-group
+                                label(for='nombre') Nombre:
+                                input#nombre.form-control(type="text" name="nombre")
+                            div.form-group
+                                label(for='descripcion') Descripcion:
+                                input#descripcion.form-control(type="text" name="descripcion")
+                            div.form-group
+                                label(for='precio') Precio:
+                                input#precio.form-control(type="text" name="precio")
+                            button.btn.btn-primary(type="submit") Grabar
+                                
+

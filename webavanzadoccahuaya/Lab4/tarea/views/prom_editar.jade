@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    h2.form-signin-heading Editar Promociones
+    h5  
+        a(href="/") Home 
+    br
+    form.form-signin(action="/promociones/edit",method = "post")
+                    input(type="hidden" name="id" value="#{data._id}") 
+                    div.form-group
+                        label(for='nombre') Nombre:
+                        input#nombre.form-control(type="text" name="nombre",placeholder="Promocion" value=" #{data.nombre}")
+                    br
+                    button.btn.btn-large.btn-success(type="submit") Editar

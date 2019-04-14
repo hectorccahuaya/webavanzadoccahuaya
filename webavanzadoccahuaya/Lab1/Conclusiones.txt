@@ -1,0 +1,6 @@
+•	Conclusiones
+o	En este laboratorio se vio la importancia del gestor de paquetes de NODE.JS
+o	En este laboratorio se vio como trabaja un modulo y como hace escritura de una vista en HTML.
+o	Se vio la importancia de los módulos y como crearlos e importarlos en el modulo padre donde se creará el servidor.
+o	En este caso creamos un módulo para que actúe como filtro para encontrar la parte especifica donde agregar los valores mandados con POST.
+o	Node,js actúa como un medio de ejecución para JavaScript, en el modulo se nombra el servidor donde se va a correr la aplicación.

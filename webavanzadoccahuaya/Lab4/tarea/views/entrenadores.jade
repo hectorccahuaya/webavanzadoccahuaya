@@ -1,0 +1,34 @@
+extends layout
+
+block content
+    h2.form-signin-heading Entrenadores
+    h5  
+        a(href="/") Home 
+    br
+    br
+    table.table
+                    thead
+                        tr
+                            th ID
+                            th Nombre
+                            th Edad
+                            th Acciones
+                    tbody
+                        for item in data
+                            tr
+                                td= item._id
+                                td= item.nombre
+                                td= item.edad
+                                td 
+                                    a(href="/entrenadores/edit/#{item._id}").btn.btn-large.btn-success Editar
+                                    a(href="/entrenadores/delete/#{item._id}").btn.btn-large.btn-danger Eliminar
+    br
+    h4.form-signin-heading Crear entrenadores
+    br
+    form.form-signin(method = "post",action="/entrenadores/create")
+                div.form-group
+                    label(for='nombre') Nombre:
+                    input#nombre.form-control(type="text" name="nombre",placeholder="Nombre")
+                    label(for='edad') Edad:
+                    input#edad.form-control(type="text" name="edad",placeholder="Edad")
+                button.btn.btn-large.btn-success(type="submit") Crear Entrenador

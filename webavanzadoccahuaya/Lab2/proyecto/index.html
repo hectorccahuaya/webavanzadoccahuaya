@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> Agencia de Viajes </title>
+    </head>
+
+    <body>
+        <div>
+            <ul>
+                Ingrese que decea hacer
+                <li>
+                    <a>Pagina de Destinos</a>
+                </li>
+                <li>
+                    <a>Galeria de Destinos</a>
+                </li>
+                <li>
+                    <a>Solicitud de viaje</a>
+                </li>
+            </ul>
+            <input type="button" value='hola' id='button'>
+            
+        </div>
+    </body>
+    <script>
+        
+            var nodes = document.getElementsByTagName('button');
+            for (var i = 0; i < nodes.length; i++) {
+                nodes[i].aggEventListener('click', function(){
+                    console.log('You clicked element #' + i);
+                });
+            }
+    </script>
+</html>
