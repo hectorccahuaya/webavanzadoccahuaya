@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const logger = require('morgan');
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
-
+app.use(logger(':method :remote-addr :url :response-time'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 

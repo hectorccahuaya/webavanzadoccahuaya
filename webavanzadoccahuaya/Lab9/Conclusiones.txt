@@ -1,0 +1,7 @@
+Conclusiones:
+•	En este laboratorio se vio como agregar componentes de cargas de una forma muy accesible y agradable.
+•	Se aplico el llenado de un formulario y como alterar información mediante métodos HTTP a la mano con el formulario dependiendo del usuario con el que se logeo.
+•	Se agregaron datos desplegables en el menú que ayudarían en gran parte al clasificar información.
+•	Axios una vez mas nos ayuda a interactuar con la Api
+•	Existen páginas web que contiene gran cantidad de información de herramientas para que una página web sea muy bien elaborada.
+•	Una ves más utilizamos la etiqueta Route la cual nos permite darle direcciones especificas a las vistas sin necesidad de nombrarlas en App.js

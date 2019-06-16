@@ -22,6 +22,7 @@ class Login extends Component {
 				console.log('mi respuesta', response);
 				localStorage.setItem('userId', response.data.data._id);
 				localStorage.setItem('userName', response.data.data.username);
+				localStorage.setItem('email', response.data.data.email);
 				localStorage.setItem('userToken', response.data.token);
 				this.props.history.push('/welcome');
 			})
