@@ -1,0 +1,9 @@
+Conclusiones:
+•	Este laboratorio es muy importante ya que se creo un API la cual se encargará de reaccionar a peticiones HTML y brindar información en formato JSON.
+•	En este API también se aplica JWT el cual es un conjunto de medios se seguridad para las peticiones HTML la cual codifica la información como un objeto JSON.
+•	La tecnología JWT nos permitió brindar token para que cada petición HTML requiera una validación de TOKEN.
+•	Nuestra API trabajara con una base de datos MONGO no relacional y esta basada en el framework EXPRESS.
+•	Bcrypt es un paquete que implementamos para encriptar nuestra contraseña esto es una medida de seguridad para que la contraseña no sea mostrada en su estado original mientras la transportamos.
+•	En el API creamos el modelado de nuestra base de datos y el soporte para los métodos de petición que realizara nuestra API.
+•	La aplicación en React ara una petición mediante Axios a nuestra Api brindando la dirección IP donde está corriendo la API seguidamente del método HTML.
+•	Un punto tener en cuenta es que la información que maneja Axios en formato JSON lo cual facilita al momento de querer obtener información especifica.

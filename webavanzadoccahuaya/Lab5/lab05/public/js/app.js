@@ -37,7 +37,8 @@ $(document).ready(function () {
     })
     socket.on('listar', function (data) {
         data = JSON.parse(data)
-        for (var i = 0, j = data.length; i < j; i++) {
+        alert(data);
+        for (var i = 0, j = 1; i < j; i++) {
             fill(data[i])
         }
     })

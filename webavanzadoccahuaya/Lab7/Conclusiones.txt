@@ -1,0 +1,8 @@
+Conclusiones:
+•	Bootstrap también da soporte a React y esto es de gran ayuda ya que los estilos que brindan hacen que la pagina sea mucho más amigable e interactiva.
+•	Primeramente, para tener Bootstrap en nuestra aplicación react es necesario importar el paquete.
+•	En esta parte del laboratorio se ve claramente la facilidad de trabajar con componentes.
+•	Para utilizar etiquetas específicas de Bootstrap primeramente tienen que ser importadas en la cabecera de la vista.
+•	Una gran ventaja de utilizar Bootstrap es que puede utilizar Bootstrap de la mano con css haciendo así una combinación de estilos muy efectiva.
+•	En la documentación de Bootstrap vemos que contiene vistas ya prediseñadas que contienen un estilo e impresión muy agradable que pueden ser agregadas a nuestra App.
+•	React-router-dom es una librería la cual nos permitirá navegar mediante las vistas.

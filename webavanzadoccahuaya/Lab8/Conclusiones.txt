@@ -1,0 +1,6 @@
+Conclusiones:
+•	Deploy Now es una herramienta para ejecutar la aplicación en la nube, esta herramienta esta diseñada para testeos de la aplicación.
+•	La implementación del Chat toca puntos muy importantes como el uso del Socket y el metodo componentDidMount() ya que este método captara todos los cambios realizados.
+•	Se creo un método para cada proceso del Chat, submitHandler método de escucha, otro que se encarga de enviar la información, y por último un getmessage que se encarga de obtener la información.
+•	Importamos md5 para hashear el correo con el que traeremos nuestro perfil.
+•	En este laboratorio se vio la aplicación de la etiqueta BrowserRouter para la invocación de rutas en App.js
