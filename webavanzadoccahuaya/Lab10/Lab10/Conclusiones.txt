@@ -1,9 +1,8 @@
 CONCLUSIONES
 
-- Redux es testeador de aplicaciones JavaScript el cual nos permite entender como se comportan los componentes de la aplicacion.
+- Redux es una herramienta muy utilizada en los testeos de la aplicacion ya que permite de cierta menera agilizar las pruebas.
+- Redux esta disnible para ya sea los grander exploradores web como Firefox y Chrome
 
-- Es este laboratorio  se vio la importancia de implementar herramientas de terceros ya que ayudaria en la interfaz amigable, por ejemplo el Spinner de carga.
-
-- Redux ayuda a comprender un proyecto que contenga gran catidad de componentes.
-- En este laboratorio se vio la importancia de crear componentes que requieran permisos, estas rutas estaran protegidas dependiendo de los requerimientos que necesiten.
--Como los componentes se actualizaran ya no necesitaremos el metodo que siempre utiliamos  componentDidMount().
+- Redux ayuda a enterder mas la aplicacion separando de sus componentes que lo integran en cierta manera ayuda para entender como la aplicacion esta estructurada.
+- 
+- Redux nos permite saber el estado de las aplicaciones en este caso Java Script (Node)
